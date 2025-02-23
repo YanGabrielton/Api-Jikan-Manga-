@@ -1,0 +1,166 @@
+/* Estilos para a página de mangás, sincronizado com o estilo global */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000;
+}
+
+header nav {
+    display: flex;
+    gap: 28rem;
+}
+
+header nav a {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 125px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 2px;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar-links a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#navbar-links a .active {
+    color: rgb(255, 0, 0);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 40px;
+}
+
+.centralizarSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -5%;
+    width: 100%;
+}
+
+.footerMangas {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    outline: 1px solid #950000;
+}
+
+.rodapeMangas {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+.MainManga {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.manga-item {
+    list-style-type: none;
+}
+
+.manga {
+    width: 300px;
+    margin: 1rem;
+    overflow: hidden;
+    border: 5px solid #000000;
+    position: relative;
+}
+
+.descricao {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.manga:hover .descricao {
+    transform: translateY(0);
+}
+
+.manga:hover {
+    transform: scale(1.02);
+    box-shadow: 0.4px 8px 10px rgba(255, 255, 255, 0.2);
+}
+
+.manga img {
+    width: 100%;
+}
+
+.manga-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.manga-info h3 {
+    margin-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.descricao {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+}

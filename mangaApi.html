@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de Animes</title>
-  <link rel="stylesheet" href="/src/css/index.css"> <!-- Link do CSS -->
-
-    <!--Font Awesome-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mangás</title>
+    <link rel="stylesheet" href="./src/css/manga.css"> <!-- Link do CSS -->
     <script src="https://kit.fontawesome.com/6b1738a4a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-
-    
         <div class="container" id="nav-container">
-    
-                     <nav class="navbar navbar-expand-lg fixed-top">
-                             <a href="" class="navbar-brand">
-                                         <img id="logo" src="./src/imgs/Logo_Lateral_geekplay.png" alt="Logo">
-                            </a>
-    
-                           
-    
-                             <div class="centralizarSearch">
-                                    <form id="form">
-                                         <input type="text" placeholder="Search" id="search" class="search">
-                                    </form>
-                            </div>
-    
-                            <div  id="navbar-links">
-                                    <div class="navbar-nav">
-                                         <a href="../index.html"class="nav-item nav-link" id="home-menu">Home</a>
-                                             <a href="../Pagina/planos.html"class="nav-item nav-link" id="services-menu">Serviços</a>
-                                                <a href="#"class="nav-item nav-link" id="contact-menu">Contato</a>
-                                                 <a href="../Pagina/Login.html" class="nav-item nav-link" id="contact-menu">Login</a>
-    
-                                    </div>
-    
-    
-                         </div>
-                    </nav>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="" class="navbar-brand">
+                    <img id="logo" src="./src/imgs/Logo_Lateral_geekplay.png" alt="Logo">
+                </a>
+                <div class="centralizarSearch">
+                    <form id="form">
+                        <input type="text" placeholder="Search" id="search" class="search">
+                    </form>
+                </div>
+                <div id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="../index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="../Pagina/planos.html" class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="../Pagina/Login.html" class="nav-item nav-link" id="contact-menu">Login</a>
+                    </div>
+                </div>
+            </nav>
         </div>
-     </header>
-
-  <div class="mainAnimes" id="mainAnimes">
-    <!-- Este é o contêiner onde os animes serão listados -->
+    </header>
     
-  </div>
-  <footer id="footer" class="footerFilmes">
-    <p class="rodapeFilmes">
-   
-     Termos de Uso
+    <div class="mainManga" id="mainManga">
+        <!-- Aqui os mangás serão listados -->
+    </div>
 
-    </p>
-        <p class="rodapeFilmes">
+    <footer id="footer" class="footerFilmes">
+        <p class="rodapeFilmes">Termos de Uso</p>
+        <p class="rodapeFilmes">Política de Privacidade</p>
+        <p class="rodapeFilmes">Ferramenta de Consentimento de Cookies</p>
+    </footer>
 
-
-            Política de Privacidade
-
-
-      </p>
-         <p class="rodapeFilmes">
- 
-              Ferramenta de Consentimento de Cookies
-
-        </p>
-</footer>
-
-  <script src="./src/js/manga.js"></script> <!-- Link do JS -->
+    <script src="./src/js/manga.js"></script> <!-- Link do JS -->
 </body>
 </html>
