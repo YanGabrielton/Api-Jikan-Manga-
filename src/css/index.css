@@ -1,12 +1,5 @@
-*{
-    box-sizing: border-box;
-    
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-/* Estilos para o topo da página */
+ /*PODE MEXER NO CSS PRA COLOCAR SINCRONIZADO COM O GLOBAL CSS, 
+ BASEANDO NO CSS DOS FILMES*/
 header {
     display: flex;
     justify-content: space-between;
